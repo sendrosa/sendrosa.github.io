@@ -3,113 +3,155 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@INPROCEEDINGS{Send2506:Bloom,
+abbr={Conference},
+AUTHOR="George Drakoulis and Andreas Sendros and Periklis Kostamis and Pavlos S.
+Efraimidis",
+TITLE="Bloom Filter Variations for Enhanced Log Search in Ethereum",
+BOOKTITLE="2025 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)
+(IEEE ICBC'25)",
+ADDRESS="Pisa, Italy",
+PAGES=3,
+DAYS=1,
+MONTH=jun,
+YEAR=2025,
+KEYWORDS="Etheureum; Bloom Filter; Data Retrieval",
+ABSTRACT="Efficient data retrieval is a critical challenge for blockchain platforms
+as they scale. Ethereum leverages Bloom Filters to accelerate log retrieval
+by reducing computational overhead. However, the default Bloom Filter
+implementation introduces false positives and inefficiencies in handling
+the rapidly growing data size of the Ethereum blockchain.
+This paper explores Ethereum-specific variations of Bloom Filters to
+mitigate these limitations. We propose three optimized methods that take
+advantage of the unique characteristics of Ethereum logs and block
+structures, designed to minimize false positive rates, improve retrieval
+speed, and optimize storage requirements, with trade-offs between
+computational overhead and retrieval accuracy.
+Our evaluations demonstrate that these variations outperform standard Bloom
+Filters in Ethereum, contributing to the advancement of blockchain data
+structures.",
+poster = {postericbc25.pdf},
+code = {https://github.com/Jacquou2/Thesis}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@incollection{perifanis_federated_2025,
+  abbr={Book Chapter},
+	address = {Cham},
+	title = {Federated {Learning} for {Recommender} {Systems}: {Advances} and {Perspectives}},
+	isbn = {978-3-031-78841-3},
+	shorttitle = {Federated {Learning} for {Recommender} {Systems}},
+	url = {https://doi.org/10.1007/978-3-031-78841-3_5},
+	abstract = {Federated Learning (FL) has emerged as a promising solution within recommender systems, driven by the growing user demand for privacy-centric design. FL not only meets privacy needs but also enables precise, personalized recommendations while reducing the exposure of user preferences and interactions to external servers without explicit consent. This chapter provides a comprehensive review of literature on the use of FL in recommendation applications to safeguard user privacy. It highlights several groundbreaking methods that have transformed federated recommender systems. These include the use of cryptographic techniques to protect against private information leakage from adversarial attacks, the adoption of blockchain architectures for decentralization, and the implementation of graph-based models to better understand complex user-item interactions, thereby improving recommendation accuracy. The chapter discusses the horizon of FL in recommendation systems, examining open problems and limitations. This exploration casts a light on the potential future directions and innovations that can further fortify the synergy between FL and recommender systems.},
+	language = {en},
+	urldate = {2025-06-15},
+	booktitle = {Federated {Learning} {Systems}: {Towards} {Privacy}-{Preserving} {Distributed} {AI}},
+	publisher = {Springer Nature Switzerland},
+	author = {Perifanis, Vasileios and Pavlidis, Nikolaos and Sendros, Andreas and Efraimidis, Pavlos S.},
+	editor = {Rehman, Muhammad Habib ur and Gaber, Mohamed Medhat},
+	year = {2025},
+	doi = {10.1007/978-3-031-78841-3_5},
+	keywords = {Blockchain, security, decentralization, Federated learning, Privacy, Recommender system},
+	pages = {87--106},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{pavlidis_federated_2025,
+  abbr={Journal},
+	title = {Federated {Learning} for privacy-{Friendly} {Health} {Apps}: {A} {Case} {Study} on {Ovulation} {Tracking}},
+	volume = {14},
+	copyright = {http://creativecommons.org/licenses/by/3.0/},
+	issn = {2224-2708},
+	shorttitle = {Federated {Learning} for privacy-{Friendly} {Health} {Apps}},
+	url = {https://www.mdpi.com/2224-2708/14/1/11},
+	doi = {10.3390/jsan14010011},
+	abstract = {In an era of increasing reliance on digital health solutions, safeguarding user privacy has emerged as a paramount concern. Health applications often need to balance advanced AI functionalities with sufficient privacy measures to ensure user engagement. This paper presents the architecture of FLORA, a privacy-first ovulation-tracking application that leverages federated learning (FL), privacy-enhancing technologies (PETs), and blockchain to protect user data while delivering accurate and personalized health insights. Unlike conventional centralized systems, FLORA ensures that sensitive information remains on users’ devices, with predictive algorithms powered by local computations. Blockchain technology provides immutable consent tracking and model update transparency, further improving user trust. In addition, FLORA’s design incentivizes participation through a token-based reward system, fostering collaborative data contributions. This work illustrates how the integration of cutting-edge technologies creates a secure, scalable, and user-centric health application, setting a new standard for privacy-preserving digital health platforms.},
+	language = {en},
+	number = {1},
+	urldate = {2025-06-15},
+	journal = {Journal of Sensor and Actuator Networks},
+	author = {Pavlidis, Nikolaos and Sendros, Andreas and Tsiolakis, Theodoros and Kostamis, Periklis and Karasoulas, Christos and Briola, Eleni and Nikolaidis, Christos Chrysanthos and Perifanis, Vasilis and Drosatos, George and Katsiri, Eleftheria and Filippidou, Despoina Elisavet and Manos, Anastasios and Efraimidis, Pavlos S.},
+	month = feb,
+	year = {2025},
+	note = {Number: 1
+Publisher: Multidisciplinary Digital Publishing Institute},
+	keywords = {blockchain, encryption, federated learning, machine learning, privacy},
+	pages = {11},
+  code = {https://github.com/NGI-TRUSTCHAIN/Flora},
+  website = {https://flora.athenarc.gr/}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{kostamis_data_2024,
+  abbr={Journal},
+	title = {Data management in {Ethereum} {DApps}: {A} cost and performance analysis},
+	volume = {153},
+	issn = {0167-739X},
+	shorttitle = {Data management in {Ethereum} {DApps}},
+	url = {https://www.sciencedirect.com/science/article/pii/S0167739X23004351},
+	doi = {10.1016/j.future.2023.11.026},
+	abstract = {The cost of interacting with a blockchain and the time required to search and retrieve information from it are important factors in the design of Decentralized Applications (DApps). The corresponding approaches for data management in Ethereum vary from pure on-chain solutions to hybrid architectures. In this work, we thoroughly examine a wide range of data management methods, including unconventional ones, and evaluate them in terms of storage cost and retrieval latency while considering the impact of recent hard forks. More precisely, we elaborate on the use of Smart Contract (SC) storage as a data store for DApps and in view of the prohibitive cost inherent to this approach, we present and compare methods for low-cost data handling in Ethereum, namely the event-logs, the transaction payload, and the almost surprising exploitation of unused function arguments. In addition, we study hybrid schemes by using IPFS and Swarm as storage platforms and Ethereum as a timestamping proof mechanism. Such schemes are especially effective when large chunks of data have to be managed. The upload and retrieval performance of these platforms and the cost associated with storing (on-chain) the identifiers of the uploaded data are of utmost importance and therefore are investigated in detail.},
+	urldate = {2025-06-15},
+	journal = {Future Generation Computer Systems},
+	author = {Kostamis, Periklis and Sendros, Andreas and Efraimidis, Pavlos S.},
+	month = apr,
+	year = {2024},
+	keywords = {Blockchain, Data management, Ethereum, Gas, IPFS, Smart contracts, Swarm},
+	pages = {193--205},
+  code="https://github.com/perikost/ExploringEthereum"
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{zikos_hfabdm_2022,
+  abbr={Conference},
+	title = {{HFabD}+{M}: {A} {Web}-based {Platform} for {Automated} {Hyperledger} {Fabric} {Deployment} and {Management}},
+	shorttitle = {{HFabD}+{M}},
+	url = {https://ieeexplore.ieee.org/abstract/document/10087061},
+	doi = {10.1109/iGETblockchain56591.2022.10087061},
+	abstract = {Hyperledger Fabric is an open-source private per-missioned blockchain that supports the use of smart contracts (chaincode). It is aimed mainly at private networks of compa-nies. To serve the different needs of each company and to be flexible in customer requirements, it consists of various adaptive components. Although this structure efficiently addresses a wide range of needs, deploying such a network for research purposes or rapid development is complex. In this paper, we present a web-based system architecture for the automated deployment of a Hyperledger Fabric network, and in addition, we describe the tools needed to manage and update such a network. Finally, as a proof-of-concept, we implement the proposed architecture to demonstrate the feasibility of our approach.},
+	urldate = {2025-06-15},
+	booktitle = {2022 {IEEE} 1st {Global} {Emerging} {Technology} {Blockchain} {Forum}: {Blockchain} \& {Beyond} ({iGETblockchain})},
+	author = {Zikos, Ioannis and Sendros, Andreas and Drosatos, George and Efraimidis, Pavlos S.},
+	month = nov,
+	year = {2022},
+	keywords = {Blockchain Deployment, Blockchain Network Management, Blockchains, Companies, Distributed ledger, Fabrics, Hyperledger Fabric, Prototypes, Smart contracts, Systems architecture, Web-based Platform},
+	pages = {1--6},
+  code = {https://github.com/ioanziko/hyperledger}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{sendros_blockchain_2022,
+  abbr={Journal},
+	title = {Blockchain {Applications} in {Agriculture}: {A} {Scoping} {Review}},
+	volume = {12},
+	copyright = {http://creativecommons.org/licenses/by/3.0/},
+	issn = {2076-3417},
+	shorttitle = {Blockchain {Applications} in {Agriculture}},
+	url = {https://www.mdpi.com/2076-3417/12/16/8061},
+	doi = {10.3390/app12168061},
+	abstract = {Blockchain is a distributed, immutable ledger technology initially developed to secure cryptocurrency transactions. Following its revolutionary use in cryptocurrencies, blockchain solutions are now being proposed to address various problems in different domains, and it is currently one of the most “disruptive” technologies. This paper presents a scoping review of the scientific literature for exploring the current research area of blockchain applications in the agricultural sector. The aim is to identify the service areas of agriculture where blockchain is used, the blockchain technology used, the data stored in it, its combination with external databases, the reason it is used, and the variety of agricultural products, as well as the level of maturity of the respective approaches. The study follows the PRISMA-ScR methodology. The purpose of conducting these scoping reviews is to identify the evidence in this field and clarify the key concepts. The literature search was conducted in April 2021 using Scopus and Google Scholar, and a systematic selection process identified 104 research articles for detailed study. Our findings show that in the field, although still in the early stages, with the majority of the studies in the design phase, several experiments have been conducted, so a significant percentage of the work is in the implementation or piloting phase. Finally, our research shows that the use of blockchain in this domain mainly concerns the integrity of agricultural production records, the monitoring of production steps, and the monitoring of products. However, other varied and remarkable blockchain applications include incentive mechanisms, a circular economy, data privacy, product certification, and reputation systems. This study is the first scoping review in this area, following a formal systematic literature review methodology and answering research questions that have not yet been addressed.},
+	language = {en},
+	number = {16},
+	urldate = {2025-06-15},
+	journal = {Applied Sciences},
+	author = {Sendros, Andreas and Drosatos, George and Efraimidis, Pavlos S. and Tsirliganis, Nestor C.},
+	month = jan,
+	year = {2022},
+	note = {Number: 16
+Publisher: Multidisciplinary Digital Publishing Institute},
+	keywords = {agriculture, blockchain, distributed ledger technology, PRISMA-ScR, scoping review},
+	pages = {8061},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{kostamis_exploring_2021,
+  abbr={Conference},
+	title = {Exploring {Ethereum}'s {Data} {Stores}: {A} {Cost} and {Performance} {Comparison}},
+	shorttitle = {Exploring {Ethereum}'s {Data} {Stores}},
+	url = {https://ieeexplore.ieee.org/abstract/document/9569804},
+	doi = {10.1109/BRAINS52497.2021.9569804},
+	abstract = {The cost of using a blockchain infrastructure as well as the time required to search and retrieve information from it must be considered when designing a decentralized application. In this work, we examine a comprehensive set of data management approaches for Ethereum applications and assess the associated cost in gas as well as the retrieval performance. More precisely, we analyze the storage and retrieval of various-sized data, utilizing smart contract storage. In addition, we study hybrid approaches by using IPFS and Swarm as storage platforms along with Ethereum as a timestamping proof mechanism. Such schemes are especially effective when large chunks of data have to be managed. Moreover, we present methods for low-cost data handling in Ethereum, namely the event-logs, the transaction payload, and the almost surprising exploitation of unused function arguments. Finally, we evaluate these methods on a comprehensive set of experiments.},
+	urldate = {2025-06-15},
+	booktitle = {2021 3rd {Conference} on {Blockchain} {Research} \& {Applications} for {Innovative} {Networks} and {Services} ({BRAINS})},
+	author = {Kostamis, Periklis and Sendros, Andreas and Efraimidis, Pavlos},
+	month = sep,
+	year = {2021},
+	keywords = {blockchain, Complexity theory, Costs, Data handling, data management, Ethereum, Extraterrestrial measurements, gas, IPFS, Memory, Payloads, smart contracts, Smart contracts, Swarm},
+	pages = {53--60},
+  video="https://www.youtube.com/watch?v=tmRj7cYxxBY",
+  code="https://github.com/perikost/ExploringEthereum"
 }
