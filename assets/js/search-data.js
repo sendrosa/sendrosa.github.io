@@ -440,16 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-our-paper-bloom-filter-variations-for-enhanced-log-search-in-ethereum-will-be-presented-as-a-poster-on-wednesday-june-4-at-ieee-icbc-2025-in-pisa-italy-you-can-find-the-publication-here",
+          title: 'Our paper “Bloom Filter Variations for Enhanced Log Search in Ethereum” will be...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
