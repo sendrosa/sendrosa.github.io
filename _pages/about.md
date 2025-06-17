@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:  Systems Engineer at <a href='https://safeswisscloud.com/en/'>Safe Swiss Cloud</a> <br>  PhD Student at <a href='https://www.ee.duth.gr/'>Democritus University of Thrace</a>  
 
 profile:
   align: right
