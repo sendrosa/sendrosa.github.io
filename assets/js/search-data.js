@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
@@ -401,14 +401,14 @@ ninja.data = [{
             },},{id: "news-our-paper-bloom-filter-variations-for-enhanced-log-search-in-ethereum-will-be-presented-as-a-poster-on-wednesday-june-4-at-ieee-icbc-2025-in-pisa-italy-you-can-find-the-publication-here",
           title: 'Our paper “Bloom Filter Variations for Enhanced Log Search in Ethereum” will be...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
+          section: "News",},{id: "projects-flora",
+          title: 'Flora',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-susanna",
+          title: 'SUSANNA',
+          description: "TERMINET",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
