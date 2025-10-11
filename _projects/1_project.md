@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: Flora
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/FLORA_Rectangle_Transparent.jpg
 importance: 1
-category: work
+category: Research Projects
 related_publications: true
 ---
 
