@@ -2,7 +2,7 @@
 layout: page
 title: Flora
 description: with background image
-img: assets/img/FLORA_Rectangle_Transparent.jpg
+img: assets/img/projects/FLORA_Rectangle_Transparent.jpg
 importance: 1
 category: Research Projects
 related_publications: true

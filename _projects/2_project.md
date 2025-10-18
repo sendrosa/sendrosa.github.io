@@ -2,7 +2,7 @@
 layout: page
 title: SUSANNA
 description: TERMINET
-img: assets/img/susanna.jpg
+img: assets/img/projects/susanna.jpg
 importance: 2
 category: Research Projects
 giscus_comments: true
