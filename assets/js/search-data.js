@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-openwebui-review",
+        
+          title: "OpenWebUI review",
+        
+        description: "OpenWebUI review",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/openwebui/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
