@@ -51,17 +51,17 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-flora",
           title: 'Flora',
-          description: "with background image",
+          description: "Federated Learning Ovulation Tracking App with Reward System",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-susanna",
           title: 'SUSANNA',
-          description: "TERMINET",
+          description: "Secure immUtable System based on blockchAiN for water management smart coNtrActs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-susanna",
-          title: 'SUSANNA',
-          description: "a project that redirects to another website",
+            },},{id: "projects-agro4",
+          title: 'AGRO4+',
+          description: "Holistic approach to Agriculture 4.0 for new farmers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{
