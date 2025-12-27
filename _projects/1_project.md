@@ -1,14 +1,15 @@
 ---
 layout: page
 title: Flora
-description: with background image
+description: Federated Learning Ovulation Tracking App with Reward System
 img: assets/img/projects/FLORA_Rectangle_Transparent.jpg
+redirect: https://trustchain.ngi.eu/flora/
 importance: 1
 category: Research Projects
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -78,4 +79,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
